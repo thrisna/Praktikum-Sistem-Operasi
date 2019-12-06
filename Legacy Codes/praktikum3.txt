@@ -1,0 +1,71 @@
+~$sudo adduser dengklek
+~$sudo adduser kholil
+~$sudo adduser wahid
+~$sudo addgroup satu
+~$sudo addgroup dua
+~$sudo adduser dengklek satu
+~$sudo adduser kholil dua
+~$sudo adduser wahid dua
+
+~$ nano skrip1.sh
+
+“Terserah”
+
+~$ sudo chmod 644 skrip1.sh
+~$ sudo chown dengklek skrip1.sh
+~$ sudo su dengklek
+dengklek/~$ nano skrip1.sh
+
+dengklek/~$ exit
+~$ sudo su kholil
+kholil/~$ nano skrip1.sh 
+
+kholil/~$ exit
+~$ sudo su wahid
+wahid/~$ nano skrip1.sh 
+
+~$ sudo su dengklek
+dengklek/~$ bash skrip1.sh
+dengklek/~$ ./skrip1.sh
+dengklek/~$ exit
+
+~$ sudo su kholil
+kholil/~$ bash skrip1.sh
+kholil/~$ ./skrip1.sh
+kholil/~$ exit
+
+~$ sudo su wahid
+wahid/~$ bash skrip1.sh
+wahid/~$ ./skrip1.sh
+
+~$ nano skrip2.sh
+
+echo “Terserah”
+
+~$ sudo chmod 700 skrip2.sh
+~$ sudo chown dengklek skrip2.sh
+~$ sudo su dengklek
+dengklek/~$ nano skrip2.sh
+
+dengklek/~$ exit
+~$ sudo su kholil
+kholil/~$ nano skrip2.sh 
+
+kholil/~$ exit
+~$ sudo su wahid
+wahid/~$ nano skrip2.sh 
+
+~$ sudo su dengklek
+dengklek/~$ bash skrip2.sh
+dengklek/~$ ./skrip2.sh
+dengklek/~$ exit
+
+~$ sudo su kholil
+kholil/~$ bash skrip2.sh
+kholil/~$ ./skrip2.sh
+kholil/~$ exit
+
+~$ sudo su wahid
+wahid/~$ bash skrip2.sh
+wahid/~$ ./skrip2.sh
+
