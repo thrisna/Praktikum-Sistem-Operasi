@@ -1,0 +1,3 @@
+matakuliah         :metode numerik
+hari               :selasa
+jam                : 09.30-12.00
